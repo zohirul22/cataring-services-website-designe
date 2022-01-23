@@ -65,3 +65,30 @@ body{
   font-style: italic  ;
 }
 
+.shahin{
+    position: relative;
+}
+
+.taniya{
+    position: absolute;
+    top: -15px;
+    right: 30px;
+}
+.hot{
+background-color: rgb(202, 91, 17);
+border: 1px solid rgb(148, 56, 56);
+color: white;
+text-align: center;
+padding: 3px;
+width: 40px;
+height: 30px;
+border-radius: 50px;
+
+
+}
+
+
+.marrid{
+    width: 1480px;
+    height: 530px;
+}
