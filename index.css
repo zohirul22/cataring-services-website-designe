@@ -58,3 +58,10 @@ body{
    font-size: 25px;
 }
 
+.progress{
+    height: 35px;
+  font-size: 30px;
+  font-weight: bolder;
+  font-style: italic  ;
+}
+
