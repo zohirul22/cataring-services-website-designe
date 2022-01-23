@@ -1,0 +1,36 @@
+body{
+    background-color: #E5E5E5;
+}
+.nav-link{
+    color: black;
+}
+
+.button{
+    width: 150px;
+    background-image: linear-gradient(blue,green,pink);
+    font-size: 30px;
+    font-weight: bold;
+   list-style: none;
+   margin-left: 400px;
+   border-radius: 20px;
+   border: 1px solid red;
+   padding: 10px, 15px;
+}
+
+.button>a{
+    text-decoration: none;
+    color: white;
+  
+}
+.icon{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  color: #5243C2;
+  background-color: azure;
+}
+.accordion-item{
+    border: 2px solid rgb(136, 164, 189);
+   
+}
+
