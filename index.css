@@ -1,27 +1,56 @@
+
+/*********************google font import******************/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/*********************google font import******************/
+
 body{
     background-color: #E5E5E5;
 }
-.nav-link{
+
+.marrid{
+    width: 1480px;
+    height: 600px;
+}
+
+
+
+/******************google font use*****************/
+.navbar-brand{
+    color: rgb(21, 3, 99);
+    font-family: 'Playfair Display', serif;
+}
+.header-line{
+    font-family: 'Libre Baskerville', serif;
+}
+p{
+    font-family: 'EB Garamond', serif; 
+}
+/******************google font use*****************/
+
+
+.nav-item>a{
     color: black;
+    font-family: 'Roboto', sans-serif;
+}
+/********************button********/
+button{
+ list-style: none;
+background-image: linear-gradient(indigo,pink,blue);
+ border: 1px solid red;
+ border-radius: 30px;
 }
 
-.button{
-    width: 150px;
-    background-image: linear-gradient(blue,green,pink);
-    font-size: 30px;
-    font-weight: bold;
-   list-style: none;
-   margin-left: 400px;
-   border-radius: 20px;
-   border: 1px solid red;
-   padding: 10px, 15px;
-}
-
-.button>a{
+button>a{
     text-decoration: none;
+   font-weight: bolder;
+    padding: 20px 30px;
+    font-size: 30px;
     color: white;
-  
 }
+/********************button********/
+
+
+/*************package icons******/
 .icon{
   width: 20px;
   height: 20px;
@@ -29,11 +58,34 @@ body{
   color: #5243C2;
   background-color: azure;
 }
-.accordion-item{
-    border: 2px solid rgb(136, 164, 189);
-   
+
+
+.shahin{
+    position: relative;
 }
 
+.taniya{
+    position: absolute;
+    top: -15px;
+    right: 30px;
+}
+.hot{
+background-color: rgb(202, 91, 17);
+
+border: 1px solid rgb(148, 56, 56);
+color: white;
+text-align: center;
+padding: 3px;
+width: 40px;
+height: 30px;
+border-radius: 50px;
+}
+
+/*************package icons******/
+
+
+
+/*************alert*************/
 .alert{
     text-align: right;
   width: 300px;
@@ -49,46 +101,27 @@ body{
   border: 5px solid rgb(189, 179, 245);
     border-radius: 100%;
     color: tomato;
-  
 }
 
+/*************alert*************/
+
+/*************happyness**************/
 .datails{
     background-image: linear-gradient(tomato,rgb(212, 115, 115));
    color: white;
    font-size: 25px;
 }
+/*************happyness**************/
 
+
+
+/******************marrid progress***********/
 .progress{
     height: 35px;
   font-size: 30px;
   font-weight: bolder;
   font-style: italic  ;
 }
-
-.shahin{
-    position: relative;
-}
-
-.taniya{
-    position: absolute;
-    top: -15px;
-    right: 30px;
-}
-.hot{
-background-color: rgb(202, 91, 17);
-border: 1px solid rgb(148, 56, 56);
-color: white;
-text-align: center;
-padding: 3px;
-width: 40px;
-height: 30px;
-border-radius: 50px;
+/******************marrid progress***********/
 
 
-}
-
-
-.marrid{
-    width: 1480px;
-    height: 530px;
-}
